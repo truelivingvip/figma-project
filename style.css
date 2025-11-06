@@ -1,0 +1,199 @@
+body{
+    background : white;
+}
+.toparea{
+    width : 100%;
+    height : 800px;
+    background :url('room.png')no-repeat;
+    text-align: center;
+}
+.first-row{
+    width:100%;
+    height:80px;
+    background:linear-gradient(to right,rgba(255,255,255,0.5));
+    text-align: center;
+}
+.first-row ul{
+    list-style:none;
+    padding : 0;
+    margin : 30px;
+}
+.first-row ul li{
+    float:left;
+}
+.first-row ul li a:link, .first-row ul li a:visited{
+    text-decoration:none;
+    padding : 15px;
+    color : #014B40;
+}
+.toparea img{
+    width : 95px;
+    height : 40px;
+    margin : 15px 100px;
+    text-align: center;
+}
+.toparea h1{
+    width : 500px;
+    color:white;
+    padding : 50px;
+    margin : 0 700px;
+    text-align: center;
+}
+.toparea p:nth-of-type(1){
+    width : 500px;
+    color:white;
+    padding : 50px;
+    text-align: justify;
+    margin : -50px 750px;
+}
+.toparea p:nth-of-type(2){
+    width : 100px;
+    color:white;
+    padding : 10px;
+    margin : 50px 800px;
+    background:#014B40;
+}
+.toparea p a:link, .toparea p a:visited{
+    color:white;
+    text-decoration: none;
+}
+.toparea p:nth-of-type(3){
+    width : 120px;
+    color:white;
+    text-align: center;
+    margin : -85px 1000px;
+}
+.featured{
+    width:100%;
+    height:550px;
+    background:white;
+    text-align: center;
+}
+.featured p:nth-of-type(1){
+    font: 20px 'Open Sans', sans-serif;
+    margin:100px 0;
+    color:#014B40;
+}
+.featured img{
+    width:320px;
+    height:300px;
+    margin:-40px 0;
+}
+.featured .row:last-child .col:nth-child(3) p{
+    width:320px;
+    height:50px;
+    text-align: left;
+    margin:-10px 48px;
+    position:absolute;
+    background:linear-gradient(to right, rgba(255,255,255,0.4));
+}
+.bar{
+    width:100%;
+    height:200px;
+    background:url('bar.png')no-repeat;
+    text-align: center;
+}
+.bar img{
+    margin:80px 0;
+}
+.color{
+    width:100%;
+    height:500px;
+    background:white;
+    text-align: center;
+}
+.color p{
+    font: 30px 'Open Sans', sans-serif;
+    margin:100px 0;
+    color:#014B40;
+}
+.color img{
+    width:300px;
+    height:250px;
+    margin:-50px 0;
+}
+.plant{
+    width:100%;
+    height:500px;
+    background:white;
+    text-align: center;
+}
+.plant p{
+    font: 30px 'Open Sans', sans-serif;
+    margin:70px 0;
+    color:#014B40;
+}
+.plant img{
+    width:350px;
+    height:280px;
+    margin:-40px 0;
+}
+.shipping{
+    width:1140px;
+    height:500px;
+    background:url('free.png')no-repeat;
+    margin:0 200px;
+    text-align: center;
+}
+.contact{
+    width:100%;
+    height:600px;
+    background:#014B40;
+    text-align: center;
+}
+.con img{
+    margin:100px 0;
+}
+.con p{
+    
+    color:white;
+    margin:-70px 0px;
+    text-align: justify;
+}
+.con h3 {
+    color:white;
+}
+.contact p:nth-of-type(2){
+    color:white;
+    text-align: left;
+    padding:10px;
+    background:linear-gradient(to right, rgba(255,255,255,0.3));
+}
+.contact h3{ 
+    color:white;
+    margin:100px 0;
+}
+.contact ul{
+    list-style: none;
+    margin:-80px 0;
+    padding:0;
+}
+.contact ul li{
+    padding:10px 0;
+}
+.contact ul li a:link, .contact ul li a:visited{
+    color:white;
+    text-decoration: none;
+}
+.col:nth-child(3) h3{
+    width:200px;
+    height:35px;
+    color:white;
+    
+}
+.col:nth-child(4) h3{
+    width:150px;
+    height:35px;
+    color:white;
+   
+}
+.last {
+    text-align: center;
+    background:#014B40;
+}
+.last p{
+    color:white;
+    padding:15px;
+    background:linear-gradient(to right, rgba(255,255,255,0.3));
+    font-size:15px;
+}

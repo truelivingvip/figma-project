@@ -151,8 +151,7 @@ body{
 .con h3 {
     color:white;
 }
-.contact p:nth-of-type(2){
-    color:white;
+#colFormLabel{
     text-align: left;
     padding:10px;
     background:linear-gradient(to right, rgba(255,255,255,0.3));
